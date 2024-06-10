@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { SideNavBarComponent } from './side-nav-bar/side-nav-bar.component';
 import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
 import { LoginComponent } from './login/login.component';
+import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSelectModule,
+    MatInputModule,
+    MatFormFieldModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
