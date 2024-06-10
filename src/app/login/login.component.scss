@@ -1,0 +1,34 @@
+
+.login-section {
+    text-align: left;
+    display: block;
+    width: 50%;
+    background-color: antiquewhite;
+    transform: translate(50%, 5%);
+}
+
+.header-section .title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form-block-section {
+    padding: 10px 20px;
+   width: 100%;
+   
+}
+.form-group {
+    label {
+        display: block;
+        padding-left: 15px;
+    }
+    mat-form-field {
+        width: 100%;
+        // &.form-control {
+        //     border: 1px solid #000;
+        // }
+    }
+}
+.btn-success {
+    margin-left: 15px;
+}
